@@ -40,7 +40,7 @@ public class Main {
         System.out.println("Caneta vermelha criada: " +
                            "Cor: " + canetaVermelha.cor + " Tampada: " + canetaVermelha.tampada);
 
-        System.out.println("------------");
+        System.out.println("-------------");
         canetaVermelha.destampar();
         canetaAzul.destampar();
 
