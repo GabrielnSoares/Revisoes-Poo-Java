@@ -2,21 +2,34 @@ package br.gabnsoares.dev;
 
 public class Caneta {
 
-    String cor;
-    String marca;
-    double ponta;
-    int carga;
-    boolean tampada;
+    // private - ninguem consegue ver, exceto a classe
+    // protected - somente a propria classe e as demais classes que estiverem no pacote
+    // public - qualquer um de qualquer lugar pode interagir e acessar
 
-    void tampar() {
+    protected String cor;
+    protected String marca;
+    protected double ponta;
+    protected int carga;
+    private boolean tampada;
+
+    public void tampar() {
         this.tampada = true;
     }
 
-    void destampar() {
+    public void destampar() {
         this.tampada = false;
     }
 
-    void escrever(String texto) {
+    protected void escrever(String texto) {
         System.out.println("Escrevendo: " + texto);
+    }
+    public void status() {
+        System.out.println("=======================");
+        System.out.println("Cor: " + this.cor);
+        System.out.println("Marca: " + this.marca);
+        System.out.println("Ponta: " + this.ponta);
+        System.out.println("Carga: " + this.carga);
+        System.out.println("Tampada: " + this.tampada);
+        System.out.println("=======================");
     }
 }
