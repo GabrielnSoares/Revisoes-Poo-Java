@@ -1,4 +1,4 @@
-package br.gabnsoares.dev;
+package br.gabnsoares.dev.caneta;
 
 public class Caneta {
 

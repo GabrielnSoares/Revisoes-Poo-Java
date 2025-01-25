@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="poo">
+    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="visibilidade atributos e metodos">
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/livro/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/livro/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/gabnsoares/dev/Caneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/Caneta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/gabnsoares/dev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/gabnsoares/dev/Caneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/caneta/Caneta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/gabnsoares/dev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/caneta/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +47,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.br.gabnsoares.dev.metodos.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.br.gabnsoares.dev.livro.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.Main" />
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.caneta.Main" />
       <module name="poo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.*" />
+          <option name="PATTERN" value="br.gabnsoares.dev.caneta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.gabnsoares.dev.livro.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.livro.Main" />
+      <module name="poo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.gabnsoares.dev.livro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.gabnsoares.dev.livro.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -98,11 +115,20 @@
       <option name="project" value="LOCAL" />
       <updated>1737602469047</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="visibilidade atributos e metodos">
+      <option name="closed" value="true" />
+      <created>1737756020605</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737756020605</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="poo" />
-    <option name="LAST_COMMIT_MESSAGE" value="poo" />
+    <MESSAGE value="visibilidade atributos e metodos" />
+    <option name="LAST_COMMIT_MESSAGE" value="visibilidade atributos e metodos" />
   </component>
 </project>
