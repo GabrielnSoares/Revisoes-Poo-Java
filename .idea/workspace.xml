@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="visibilidade atributos e metodos">
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/livro/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/livro/Main.java" afterDir="false" />
+    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="projeto sistema bancario">
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/sistemabancario/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/sistemabancario/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/gabnsoares/dev/Caneta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/caneta/Caneta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/gabnsoares/dev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/caneta/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +48,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.br.gabnsoares.dev.livro.Main.executor": "Run",
     "Application.br.gabnsoares.dev.metodos.Main.executor": "Run",
+    "Application.br.gabnsoares.dev.sistemabancario.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.br.gabnsoares.dev.livro.Main">
+  <component name="RunManager" selected="Application.br.gabnsoares.dev.sistemabancario.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.caneta.Main" />
       <module name="poo" />
@@ -83,8 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="br.gabnsoares.dev.sistemabancario.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.sistemabancario.Main" />
+      <module name="poo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.gabnsoares.dev.sistemabancario.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.gabnsoares.dev.sistemabancario.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.livro.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -123,12 +137,22 @@
       <option name="project" value="LOCAL" />
       <updated>1737756020605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="getter setter constructor">
+      <option name="closed" value="true" />
+      <created>1737766426196</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737766426196</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="poo" />
     <MESSAGE value="visibilidade atributos e metodos" />
-    <option name="LAST_COMMIT_MESSAGE" value="visibilidade atributos e metodos" />
+    <MESSAGE value="getter setter constructor" />
+    <MESSAGE value="projeto sistema bancario" />
+    <option name="LAST_COMMIT_MESSAGE" value="projeto sistema bancario" />
   </component>
 </project>
