@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="enums">
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/cafeteria/DolceGusto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/cafeteria/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/cafeteria/MaquinaCafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/cafeteria/ModoCafe.java" afterDir="false" />
+    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="interface">
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/fazenda/Galinheiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/fazenda/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +52,7 @@
     "Application.Main.executor": "Run",
     "Application.br.gabnsoares.dev.cafeteria.Main.executor": "Run",
     "Application.br.gabnsoares.dev.enums.Main.executor": "Run",
+    "Application.br.gabnsoares.dev.fazenda.Main.executor": "Run",
     "Application.br.gabnsoares.dev.livro.Main.executor": "Run",
     "Application.br.gabnsoares.dev.metodos.Main.executor": "Run",
     "Application.br.gabnsoares.dev.sistemabancario.Main.executor": "Run",
@@ -62,20 +61,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.br.gabnsoares.dev.cafeteria.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.caneta.Main" />
-      <module name="poo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.caneta.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.br.gabnsoares.dev.fazenda.Main">
     <configuration name="br.gabnsoares.dev.cafeteria.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.cafeteria.Main" />
       <module name="poo" />
@@ -95,6 +81,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.gabnsoares.dev.enums.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.gabnsoares.dev.fazenda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.fazenda.Main" />
+      <module name="poo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.gabnsoares.dev.fazenda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.gabnsoares.dev.fazenda.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.cafeteria.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.enums.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.sistemabancario.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.livro.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737818787628</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="interface">
+      <option name="closed" value="true" />
+      <created>1737826029249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737826029249</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +211,7 @@
     <MESSAGE value="getter setter constructor" />
     <MESSAGE value="projeto sistema bancario" />
     <MESSAGE value="enums" />
-    <option name="LAST_COMMIT_MESSAGE" value="enums" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
 </project>
