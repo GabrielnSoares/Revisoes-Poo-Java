@@ -7,11 +7,6 @@
     <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="sobrecarga (overload)">
       <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/generics/Caixa.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/generics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/override/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/override/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/override/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/override/Leao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/override/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +54,7 @@
     "Application.br.gabnsoares.dev.enums.Main.executor": "Run",
     "Application.br.gabnsoares.dev.estadio.Main.executor": "Run",
     "Application.br.gabnsoares.dev.fazenda.Main.executor": "Run",
+    "Application.br.gabnsoares.dev.generics.Main.executor": "Run",
     "Application.br.gabnsoares.dev.livro.Main.executor": "Run",
     "Application.br.gabnsoares.dev.metodos.Main.executor": "Run",
     "Application.br.gabnsoares.dev.overload.Main.executor": "Run",
@@ -70,13 +66,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.br.gabnsoares.dev.override.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.pesqueiro.Main" />
+  <component name="RunManager" selected="Application.br.gabnsoares.dev.generics.Main">
+    <configuration name="br.gabnsoares.dev.estadio.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.estadio.Main" />
       <module name="poo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.pesqueiro.*" />
+          <option name="PATTERN" value="br.gabnsoares.dev.estadio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.gabnsoares.dev.estadio.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.estadio.Main" />
+    <configuration name="br.gabnsoares.dev.generics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.generics.Main" />
       <module name="poo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.estadio.*" />
+          <option name="PATTERN" value="br.gabnsoares.dev.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.br.gabnsoares.dev.generics.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.override.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.overload.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.veiculos.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.estadio.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738375495033</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="sobrecarga (overload)">
+      <option name="closed" value="true" />
+      <created>1738379776919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738379776919</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
