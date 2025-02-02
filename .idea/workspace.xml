@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="sobrecarga (overload)">
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/generics/Caixa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/generics/Main.java" afterDir="false" />
+    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="generics (polimorfismo parametrico)">
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/rpg/Heroi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/rpg/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/rpg/Monstro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/rpg/Personagem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Jogo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.br.gabnsoares.dev.cafeteria.Main.executor": "Run",
     "Application.br.gabnsoares.dev.enums.Main.executor": "Run",
@@ -66,13 +69,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.br.gabnsoares.dev.generics.Main">
-    <configuration name="br.gabnsoares.dev.estadio.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.estadio.Main" />
+  <component name="RunManager" selected="Application.Jogo">
+    <configuration name="Jogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.rpg.Jogo" />
       <module name="poo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.estadio.*" />
+          <option name="PATTERN" value="br.gabnsoares.dev.rpg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Jogo" />
         <item itemvalue="Application.br.gabnsoares.dev.generics.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.override.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.overload.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.veiculos.Main" />
-        <item itemvalue="Application.br.gabnsoares.dev.estadio.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738379776919</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="generics (polimorfismo parametrico)">
+      <option name="closed" value="true" />
+      <created>1738380458128</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738380458128</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,6 +281,7 @@
     <MESSAGE value="heranca extends super" />
     <MESSAGE value="generalizacao, abstracao, leaf (final)" />
     <MESSAGE value="sobrecarga (overload)" />
-    <option name="LAST_COMMIT_MESSAGE" value="sobrecarga (overload)" />
+    <MESSAGE value="generics (polimorfismo parametrico)" />
+    <option name="LAST_COMMIT_MESSAGE" value="generics (polimorfismo parametrico)" />
   </component>
 </project>
