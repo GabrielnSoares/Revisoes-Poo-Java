@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="generics (polimorfismo parametrico)">
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/rpg/Heroi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/rpg/Jogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/rpg/Monstro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/rpg/Personagem.java" afterDir="false" />
+    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="projeto rpg (herancao e polimorfismo)">
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/list/ListMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Jogo.executor": "Run",
+    "Application.ListMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.br.gabnsoares.dev.cafeteria.Main.executor": "Run",
     "Application.br.gabnsoares.dev.enums.Main.executor": "Run",
@@ -69,13 +67,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Jogo">
+  <component name="RunManager" selected="Application.ListMain">
     <configuration name="Jogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.rpg.Jogo" />
       <module name="poo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.gabnsoares.dev.rpg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.list.ListMain" />
+      <module name="poo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.gabnsoares.dev.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.gabnsoares.dev.veiculos.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.veiculos.Main" />
-      <module name="poo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.veiculos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListMain" />
         <item itemvalue="Application.Jogo" />
         <item itemvalue="Application.br.gabnsoares.dev.generics.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.override.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.overload.Main" />
-        <item itemvalue="Application.br.gabnsoares.dev.veiculos.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738380458128</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="projeto rpg (herancao e polimorfismo)">
+      <option name="closed" value="true" />
+      <created>1738540278617</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738540278617</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -282,6 +288,7 @@
     <MESSAGE value="generalizacao, abstracao, leaf (final)" />
     <MESSAGE value="sobrecarga (overload)" />
     <MESSAGE value="generics (polimorfismo parametrico)" />
-    <option name="LAST_COMMIT_MESSAGE" value="generics (polimorfismo parametrico)" />
+    <MESSAGE value="projeto rpg (herancao e polimorfismo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="projeto rpg (herancao e polimorfismo)" />
   </component>
 </project>
