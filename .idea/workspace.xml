@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="projeto rpg (herancao e polimorfismo)">
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/list/ListMain.java" afterDir="false" />
+    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="colecoes e relacionamentos (list)">
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/set/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,28 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Jogo.executor": "Run",
-    "Application.ListMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.cafeteria.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.enums.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.estadio.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.fazenda.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.generics.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.livro.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.metodos.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.overload.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.override.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.sistemabancario.Main.executor": "Run",
-    "Application.br.gabnsoares.dev.veiculos.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Jogo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.cafeteria.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.enums.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.estadio.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.fazenda.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.generics.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.livro.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.metodos.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.overload.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.override.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.sistemabancario.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.gabnsoares.dev.veiculos.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ListMain">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Jogo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.rpg.Jogo" />
       <module name="poo" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.gabnsoares.dev.generics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.generics.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.set.Main" />
       <module name="poo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.generics.*" />
+          <option name="PATTERN" value="br.gabnsoares.dev.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.gabnsoares.dev.overload.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.overload.Main" />
+    <configuration name="br.gabnsoares.dev.generics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.generics.Main" />
       <module name="poo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.overload.*" />
+          <option name="PATTERN" value="br.gabnsoares.dev.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ListMain" />
         <item itemvalue="Application.Jogo" />
         <item itemvalue="Application.br.gabnsoares.dev.generics.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.override.Main" />
-        <item itemvalue="Application.br.gabnsoares.dev.overload.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738540278617</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="colecoes e relacionamentos (list)">
+      <option name="closed" value="true" />
+      <created>1738541358886</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738541358886</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +297,7 @@
     <MESSAGE value="sobrecarga (overload)" />
     <MESSAGE value="generics (polimorfismo parametrico)" />
     <MESSAGE value="projeto rpg (herancao e polimorfismo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="projeto rpg (herancao e polimorfismo)" />
+    <MESSAGE value="colecoes e relacionamentos (list)" />
+    <option name="LAST_COMMIT_MESSAGE" value="colecoes e relacionamentos (list)" />
   </component>
 </project>
