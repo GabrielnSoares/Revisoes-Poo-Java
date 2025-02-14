@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="try / catch / finally">
-      <change afterPath="$PROJECT_DIR$/exemplo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/io/ArquivoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/io/Main.java" afterDir="false" />
+    <list default="true" id="98b9ff7e-c9bc-4d60-81f9-1cba86fd008c" name="Changes" comment="static / buffer / file writer &amp; reader">
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/textify/ContadorPalavras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/textify/ImpressoraResultados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/textify/LeitorArquivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/textify/NormalizadorConteudo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/gabnsoares/dev/textify/Textify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/exemplo.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +62,7 @@
     "Application.Main.executor": "Run",
     "Application.MainMap.executor": "Run",
     "Application.TaskFlow.executor": "Run",
+    "Application.Textify.executor": "Run",
     "Application.br.gabnsoares.dev.cafeteria.Main.executor": "Run",
     "Application.br.gabnsoares.dev.enums.Main.executor": "Run",
     "Application.br.gabnsoares.dev.estadio.Main.executor": "Run",
@@ -83,7 +87,7 @@
       <recent name="C:\Users\Home\Desktop\Build And Run\KickStartJava\poo\src\br\gabnsoares\dev\taskflow\uml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.br.gabnsoares.dev.io.Main">
+  <component name="RunManager" selected="Application.Textify">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.A" />
       <module name="poo" />
@@ -110,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskFlow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.taskflow.TaskFlow" />
+    <configuration name="Textify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.gabnsoares.dev.textify.Textify" />
       <module name="poo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.gabnsoares.dev.taskflow.*" />
+          <option name="PATTERN" value="br.gabnsoares.dev.textify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Textify" />
         <item itemvalue="Application.br.gabnsoares.dev.io.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.br.gabnsoares.dev.exceptions.Main" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.TaskFlow" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739327593284</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="static / buffer / file writer &amp; reader">
+      <option name="closed" value="true" />
+      <created>1739412791933</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1739412791933</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -393,6 +405,7 @@
     <MESSAGE value="TaskFlow gestão de tarefas" />
     <MESSAGE value="extends Exception / throw / stacktrace" />
     <MESSAGE value="try / catch / finally" />
-    <option name="LAST_COMMIT_MESSAGE" value="try / catch / finally" />
+    <MESSAGE value="static / buffer / file writer &amp; reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="static / buffer / file writer &amp; reader" />
   </component>
 </project>
